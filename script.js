@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const shareBtn = document.querySelector(".share-button");
-  
-    shareBtn.addEventListener("click", () => {
-      // Simple interaction
-      alert("Sharing options coming soon!")
-    });
+const shareBtn = document.getElementById("shareBtn");
+const sharePopup = document.getElementById("sharePopup");
+
+
+shareBtn.addEventListener("click", () => {
+  sharePopup.style.display = sharePopup.style.display === "block" ? "none" : "block";
 });
+

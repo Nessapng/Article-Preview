@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Article Preview</title>
   <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-  <main class="card">
-    <div class="card-image">
-      <img src="image/drawers.jpg" alt="Article Image" />
-    </div>
-    <div class="card-content">
-      <h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
-      <p>
-        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
-      </p>
-      <div class="card-footer">
-        <div class="author">
-          <img src="image/avatar-michelle.jpg" alt="Author Avatar" class="avatar" />
-          <div class="author-info">
-            <p class="name">Michelle Appleton</p>
-            <p class="date">28 Jun 2020</p>
+  <main>
+    <div class="card">
+      <div class="card-image">
+        <img src="/images/drawers.jpg" alt="Article Image" />
+      </div>
+      <div class="card-content">
+        <h2>Shift the overall look and feel by
+          <br>adding these wonderful touches to
+          <br>furniture in your home
+        </h2>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve
+          got some
+          <br>simple tips to help you make any room feel complete.
+        </p>
+        <div class="card-footer">
+          <div class="author">
+            <img src="/images/avatar-michelle.jpg" alt="Author Avatar" class="avatar" />
+            <div class="author-info">
+              <p class="name">Michelle Appleton</p>
+              <p class="date">28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="share-container">
+            <div class="share-menu" id="sharePopup">
+              <div class="share-items">
+                <span>SHARE</span>
+                <a href="images/icon-facebook.svg"><img src="images/icon-facebook.svg" alt="Facebook" /></a>
+                <a href="images/icon-twitter.svg"><img src="images/icon-twitter.svg" alt="Twitter" /></a>
+                <a href="images/icon-pinterest.svg"><img src="images/icon-pinterest.svg" alt="Pinterest" /></a>
+              </div>
+              
+              <div class="triangle-down"></div>
+            </div>
+            <button class="share-button" id="shareBtn" aria-label="Share">
+              <img src="/images/icon-share.svg" alt="Share" />
+            </button>
           </div>
         </div>
-        <button class="share-button">
-          <img src="/images/icon-share.svg" alt="Share" />
-        </button>
       </div>
-    </div>
   </main>
+  <script src="script.js"></script>
 </body>
+
 </html>
